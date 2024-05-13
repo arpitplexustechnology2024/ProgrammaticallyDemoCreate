@@ -91,6 +91,9 @@ class ViewController: UIViewController, datapass {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUIComponents()
+        
+        
+        print("Hello Word")
     }
     
     private func setupUIComponents() {
@@ -179,6 +182,9 @@ class ViewController: UIViewController, datapass {
         passwordTextField.text = password
         confimePasswordTextField.text = confimePassword
     }
+    
+    
+
     
 }
 
